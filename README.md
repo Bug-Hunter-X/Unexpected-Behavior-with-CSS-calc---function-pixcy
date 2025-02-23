@@ -1,0 +1,2 @@
+# Unexpected Behavior with CSS calc() function
+This repository demonstrates a common, yet subtle, issue with the CSS `calc()` function.  The problem arises from inconsistent units and the lack of proper spacing in expressions.  The `bug.css` file showcases the problematic code, while `bugSolution.css` provides the corrected version.
