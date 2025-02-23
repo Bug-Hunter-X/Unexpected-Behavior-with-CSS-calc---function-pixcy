@@ -1,0 +1,13 @@
+/* bugSolution.css */
+#container {
+  width: calc(100% - 10px); /* Correct: consistent units */
+  height: calc(50vh - 20px); /* Correct: consistent units */
+  border: 1px solid black;
+}
+
+.element {
+  width: calc( (100% - 20px) / 2 ); /* Correct: spaces around operators */
+  background-color: lightblue;
+  margin: 10px;
+}
+/* Note: Using consistent units and spacing around operators in calc() ensures accurate calculations.*/
